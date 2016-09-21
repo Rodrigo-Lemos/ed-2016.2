@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<question id="Azul-q5" level="1" subject="Complexidade">
+<question id="Azul-q5" level="1" chapter="0">
 	<text>
-		<p>$A$ È um vetor de tamanho $N$. Os elementos de $A$ s„o inteiros e n„o h· inteiros iguais. Tome a vari·vel $x$ como sendo um inteiro. Qual das alternativas apresenta uma operaÁ„o que necessita de um tempo menor do que $O(N)$? </p><br/>
+		<p>Seja $A$ √© um vetor de tamanho $N$. Os elementos de $A$ s√£o inteiros e n√£o h√° inteiros iguais. Tome a vari√°vel $x$ como sendo um inteiro. Qual das alternativas apresenta uma opera√ß√£o que necessita de um tempo menor do que $O(N)$? </p><br/>
 	</text>
 	<choice type="incorrect">
 		<text> Deletar o menor elemento de $A$.
 		</text>
 		<explanation>
-		Para deletar o menor elemento de $A$, precisamos primeiro determinar quem È o menor elemento de $A$, o que custa um tempo que È $O(N)$.	
+		Para deletar o menor elemento de $A$, precisamos primeiro determinar quem √© o menor elemento de $A$, o que custa um tempo que √© $O(N)$.	
 		</explanation>
 	</choice>
 	<choice type="correct">
-		<text>Se o vetor for ordenado, determinar se o inteiro $x$ est· em $A$.
+		<text>Se o vetor for ordenado, determinar se o inteiro $x$ est√° em $A$.
 		</text>
 		<explanation>
-		Com uma busca bin·ria, È possÌvel determinar de $x$ est· em $A$ em um tempo de $O(log N)$, que È menor que $O(N)$.
+		Com uma busca bin√°ria, √© poss√≠vel determinar de $x$ est√° em $A$ em um tempo de $O(log N)$, que √© menor que $O(N)$.
 		</explanation>
 	</choice>
 	<choice type="incorrect">
-		<text>Inserir em $A$ o inteiro que È uma unidade menor que o atual menor elemento.
+		<text>Inserir em $A$ o inteiro que √© uma unidade menor que o atual menor elemento.
 		</text>
 		<explanation>
-		AlÈm da inserÁ„o, deve-se primeiro descobrir quem È o menor elemento de $A$, que custa um tempo que È $O(N)$.	
+		Al√©m da inser√ß√£o, deve-se primeiro descobrir quem √© o menor elemento de $A$, que custa um tempo que √© $O(N)$.	
 		</explanation>
 	</choice>
 	<choice type="incorrect">
 		<text>Encontrar a soma dos elementos de $A$.
 		</text>
 		<explanation>
-		Supondo que cada soma tome um tempo constante, ou seja, cada soma seja $O(1)$, para somar $N$ inteiros, precisamos de no mÌnimo $O(N)$ operaÁıes.
+		Supondo que cada soma tome um tempo constante, ou seja, cada soma seja $O(1)$, para somar $N$ inteiros, precisamos de no m√≠nimo $O(N)$ opera√ß√µes.
 		</explanation>
 	</choice>
 	<choice type="incorrect">
-		<text>Ordenar os elementos de $A$ pelo MergeSort, que obedece a relaÁ„o de recorrÍncia: $T(N) = 2T(N/2) + O(N)$.
+		<text>Ordenar os elementos de $A$ pelo MergeSort, que obedece a rela√ß√£o de recorr√™ncia: $T(N) = 2T(N/2) + O(N)$.
 		</text>
 		<explanation>
-		Resolvendo a equaÁ„o de recorrÍncia, obtÈm-se que $T(N) = O(Nlog N)$.
+		Resolvendo a equa√ß√£o de recorr√™ncia, obt√©m-se que $T(N) = O(Nlog N)$.
 		</explanation>
 	</choice>
 </question>

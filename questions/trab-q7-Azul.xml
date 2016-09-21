@@ -1,43 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<question id="Azul-q7" level="2" subject="Fila de prioridades">
+<question id="Azul-q1" level="1" chapter="8">
 	<text>
-		<p>
-		A fila de prioridades È uma estrutura de dados muito utilizada para implementar algoritmos. Como exemplo disso temos o algoritmo de Dijkstra que utiliza a mesma na sua implementaÁ„o.
-		Sendo assim, assinale as alternativas corretas a respeito da fila de prioridades.
-		</p>
-	<explanation>
-		Uma breve explicaÁ„o sobre fila de prioridades pode ser encontrada em:
-		<a href="http://www.ime.usp.br/~song/mac5710/slides/03prior.pdf">Fila de prioridades</a>
-	</explanation>
+       <p> Quais das seguintes afirma√ß√µes s√£o verdadeiras?</br>
+	(1) O problema de determinar se existe um ciclo num grafo n√£o-direcionado √© um problema P.</br>
+	(2) O problema de determinar se existe um ciclo num grafo n√£o-direcionado √© um problema NP. </br>
+	(3) Se um certo problema A √© NP-completo, ent√£o existe um algoritmo de tempo polinomial n√£o-determin√≠stico para resolver A.
+	</p>
 	</text>
+    <explanation>
+		   Uma breve explica√ß√£o sobre problemas NP pode ser encontrada em: 
+		   <a href="https://en.wikipedia.org/wiki/NP-completeness">Problemas NP</a>
+    </explanation>
+	
 	<choice type="correct">
-		<text>… possivel ordenar os elementos de uma fila de prioridades utilizando um algoritmo que retira a raiz sucessivamente com complexidade $O(n*log{}n)$. </text>
+		<text>1, 2 e 3</text>
 		<explanation>
-			Como o elemento da raiz È sempre o de maior prioridade o algoritmo est· correto. Para verificar a complexidade basta notar que a cada retirada da raiz, deve-se escolher uma nova raiz o que leva $O(log{}n)$ e como ser„o feitas $n$ retiradas o algoritmo possui complexidade $O(n*log{}n)$
+		(1) √© verdadeira pois determinar se existe um ciclo num grafo n√£o-direcionado pode ser resolvido em tempo polinomial usando o algoritmo de busca em profundidade (DFS).</br>
+		(2) √© verdadeira pois problemas P s√£o um subconjunto dos problemas NP.</br>
+		(3) √© verdadeira pois problemas NP-completos tamb√©m s√£o um subconjunto dos problemas NP, e NP significa que existe uma solu√ß√£o n√£o-determin√≠stica em tempo polinomial. 
 		</explanation>
 	</choice>
+	
 	<choice type="incorrect">
-		<text>Os dois maiores elementos de um heap s„o sempre folhas.</text>
+		<text>1 e 3</text>
 		<explanation>
-			… possÌvel que o segundo maior elemento do heap seja pai do maior e logo n„o seja uma folha.
+		(1) √© verdadeira pois determinar se existe um ciclo num grafo n√£o-direcionado pode ser resolvido em tempo polinomial usando o algoritmo de busca em profundidade (DFS).</br>
+		(2) √© verdadeira pois problemas P s√£o um subconjunto dos problemas NP.</br>
+		(3) √© verdadeira pois problemas NP-completos tamb√©m s√£o um subconjunto dos problemas NP, e NP significa que existe uma solu√ß√£o n√£o-determin√≠stica em tempo polinomial.
 		</explanation>
 	</choice>
+
 	<choice type="incorrect">
-		<text>… impossÌvel que ao se analisar dois elementos de uma fila de prioridades o de maior prioridade esteja em um nÌvel mais baixo.</text>
+		<text>2 e 3</text>
 		<explanation>
-			… possivel, basta que o de maior prioridade n„o seja um descendente do de menor prioridade.
+		(1) √© verdadeira pois determinar se existe um ciclo num grafo n√£o-direcionado pode ser resolvido em tempo polinomial usando o algoritmo de busca em profundidade (DFS).</br>
+		(2) √© verdadeira pois problemas P s√£o um subconjunto dos problemas NP.</br>
+		(3) √© verdadeira pois problemas NP-completos tamb√©m s√£o um subconjunto dos problemas NP, e NP significa que existe uma solu√ß√£o n√£o-determin√≠stica em tempo polinomial.	 
 		</explanation>
 	</choice>
+
 	<choice type="incorrect">
-		<text>O algoritmo de construir uma fila de prioridades com n elementos tem complexidade de no mÌnimo $O(n*log{}n)$</text>
+		<text>1 e 2</text>
 		<explanation>
-			… possÌvel construir uma fila de prioridades em tempo linear.
-		</explanation>
-	</choice>
-	<choice type="incorrect">
-		<text>Em uma fila de prioridades n-aria, isto È com n filhos por pai, a remoÁ„o do menor elemento ocorre de maneira mais r·pida.</text>
-		<explanation>
-			Em uma fila de prioridades n-aria a remoÁ„o È feita de maneira mais lenta e a inserÁ„o de maneira mais r·pida.	
+		(1) √© verdadeira pois determinar se existe um ciclo num grafo n√£o-direcionado pode ser resolvido em tempo polinomial usando o algoritmo de busca em profundidade (DFS).</br>
+		(2) √© verdadeira pois problemas P s√£o um subconjunto dos problemas NP.</br>
+		(3) √© verdadeira pois problemas NP-completos tamb√©m s√£o um subconjunto dos problemas NP, e NP significa que existe uma solu√ß√£o n√£o-determin√≠stica em tempo polinomial.	
 		</explanation>
 	</choice>
 </question>

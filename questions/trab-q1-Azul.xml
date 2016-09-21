@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<question id="Azul-q1" level="1" subject="teoremamestre">
+<question id="Azul-q1" level="1" chapter="2">
 	<text>
-       <p> Considerando a seguinte recorr&ecirc;ncia em funÁ„o de a e b:<br/>
-	$- T(n) = aT(n/b) + n^(2)$<br/>
-	Identifique a inst‚ncia correta para essa recorrÍncia dentre as opÁıes:</p>
+       <p> Considerando a seguinte recorr√™ncia em fun√ß√£o de a e b:<br/>
+	$ T(n) = aT(n/b) + n^(2)$<br/>
+	Identifique a inst√¢ncia correta para essa recorr√™ncia dentre as op√ß√µes:</p>
 	</text>
     <explanation>
-		   Uma breve explicaÁ„o sobre o teorema mestre pode ser encontrada em: 
-		   <a href="https://math.dartmouth.edu/archive/m19w03/public_html/Section5-2.pdf">Teorema Mestre</a>
+		   Uma breve explica√ß√£o sobre o teorema mestre pode ser encontrada em: 
+		   <a href="https://en.wikipedia.org/wiki/Master_theorem">Teorema Mestre</a>
     </explanation>
 	<choice type="incorrect">
-		<text>Se $a=b$, ent„o $T(n)=O(n\log{}n)$ </text>
+		<text>Se $a=b$, ent√£o $T(n)=O(n\log{}n)$ </text>
 		<explanation>
-			Se $a=b$, $log{b}a=1$, ent„o o algoritmo possui complexidade de ordem $n^2$.
+			Se $a=b$, $log{b}a=1$, ent√£o o algoritmo possui complexidade de ordem $n^{2}$.
 		</explanation>
 	</choice>
 	<choice type="correct">
-		<text>Se $a=b^(2) ent„o $T(n)=O(n^(2)*log{}n)$ </text>
+		<text>Se $a=b^{2}$ ent√£o $T(n)=O(n^{2}\log{}n)$ </text>
 		<explanation>
-			Se $a=b^(2)$, $log{b}a=2$, ent„o o algoritmo possui complexidade $n^(2)*log{}n$.
+			Se $a=b^{2}$, $\log_{b}a=2$, ent√£o o algoritmo possui complexidade $n^{2}\log{}n$.
 		</explanation>
 	</choice>
 	<choice type="incorrect">
-		<text>Se $a=3$ e $b=27$, ent„o $T(n)=O(n^(2))$</text>
+		<text>Se $a=3$ e $b=27$, ent√£o $T(n)=O(n^{2})$</text>
 		<explanation>
-			Se $a=3$ e $b=27$, $log{b}a=3$ ent„o o algoritmo possui complexidade de ordem $n^(3)$. 
+			Se $a=3$ e $b=27$, $\log_{b}a=3$ ent√£o o algoritmo possui complexidade de ordem $n^{3}$. 
 		</explanation>
 	</choice>
 	<choice type="incorrect">
-		<text>Se $a=b$, ent„o $T(n)=O(1)$</text>
+		<text>Se $a=b$, ent√£o $T(n)=O(1)$</text>
 		<explanation>
-			Se $a=b$, $log{b}a=1$, ent„o o algoritmo possui complexidade de ordem $n^2$.
+			Se $a=b$, $\log{b}a=1$, ent√£o o algoritmo possui complexidade de ordem $n^{2}$.
 		</explanation>
 	</choice>
 </question>

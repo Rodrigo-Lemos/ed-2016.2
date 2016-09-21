@@ -1,0 +1,23 @@
+#+TITLE: Problem 1 - Chapter 6 
+#+AUTHOR: Rodrigo Lemos, Luiz Sampaio, Davi Amorim
+#+EMAIL: r_lemos@outlook.com
+
+Esse problema é sobre programação dinâmica!
+
+Dado uma lista de inteiros $A={a_1, a_2, ..., a_n}$ e um inteiro $k$,selecionar elementos de $k$ de forma que a soma desses elementos seja menor ou igual a $k$ e a maior o possível.
+**OBS:** Um elemento de $A$ pode ser selecionado mais de uma vez.
+A primeira linha da entrada possui dois inteiros representando o tamanho de $A$ e o valor de $k$ respectivamente. A segunda linha possui $n$ inteiros representando os elementos de $A$.
+A saída deve conter 1 inteiro que representa a maior soma que não excede $k$ encontrada.
+ 
+Entrada:
+
+#+BEGIN_EXAMPLE
+3 12
+1 6 9
+#+END_EXAMPLE
+
+Saída:
+
+#+BEGIN_EXAMPLE
+12
+#+END_EXAMPLE

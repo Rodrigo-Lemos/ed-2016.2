@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<question id="Azul-q3" level="2" subject="Algoritmo guloso">
+<question id="Azul-q3" level="2" chapter="5">
 	<text>
-		<p>Uma aplicaÁ„o dos algoritmos gulosos È encontrar a ·rvore de extens„o mÌnima de um grafo. Para tal utiliza-se o algoritmo de Kruskal, que consiste em iniciar-se com o grafo vazio e repetidamente adicionar a aresta de menor peso que n„o gere um ciclo.
+		<p>Uma aplica√ß√£o dos algoritmos gulosos √© encontrar a √°rvore de extens√£o m√≠nima de um grafo. Para tal utiliza-se o algoritmo de Kruskal, que consiste em iniciar-se com o grafo vazio e repetidamente adicionar a aresta de menor peso que n√£o gere um ciclo.
 		</p>
 		<p>
-			Quais das alfirmaÁıes abaixo est„o corretas a respeito da ·rvore resultante da aplicaÁ„o do algoritmo de Kruskal no grafo abaixo?
+			Quais das alfirma√ß√µes abaixo est√£o corretas a respeito da √°rvore resultante da aplica√ß√£o do algoritmo de Kruskal no grafo abaixo?
 		</p>
-		<img src="images/grafo.png"/> <br/>
+		<img src="trab-q3-Azul.png"/> <br/>
 	<explanation>
-		Uma breve explicaÁ„o sobre o algoritmo pode ser encontrada em: 
-		   <a href="http://www.ime.usp.br/~pf/algoritmos_para_grafos/aulas/kruskal.html">Algoritmo de Kruskal</a>
+		Uma breve explica√ß√£o sobre o algoritmo pode ser encontrada em: 
+		   <a href="https://pt.wikipedia.org/wiki/Algoritmo_de_Kruskal">Algoritmo de Kruskal</a>
 	</explanation>
 	</text>
 	<choice type="incorrect">
-		<text>Todas as arestas com peso menor que 4 pertencem a ·rvore resultante. 
+		<text>Todas as arestas com peso menor que 4 pertencem a √°rvore resultante. 
 		</text>
 		<explanation>
-			A aresta CD n„o pertence.
+			A aresta CD n√£o pertence.
 		</explanation>
 	</choice>
 	<choice type="incorrect">
-		<text>A aresta BC pode pertencer ou n„o as ·rvores resultantes</text>
+		<text>A aresta BC pode pertencer ou n√£o as √°rvores resultantes</text>
 		<explanation>
-			A aresta BC pertence a ·rvore resultante.
+			A aresta BC pertence a √°rvore resultante.
 		</explanation>
 	</choice>
 	<choice type="correct">
-		<text>A aresta BC pertence a ·rvore resultante</text>
+		<text>A aresta BC pertence a √°rvore resultante</text>
 		<explanation>
-			A aresta BC pertence a ·rvore resultante.
+			A aresta BC pertence a √°rvore resultante.
 		</explanation>
 	</choice>
 	<choice type="incorrect">
-		<text>Ou a aresta BF ou a aresta BG pertencem as ·rvores resultates</text>
+		<text>Ou a aresta BF ou a aresta BG pertencem as √°rvores resultates</text>
 		<explanation>
-			Ambas as arestas n„o pertencem a ·rvore resultante.
+			Ambas as arestas n√£o pertencem a √°rvore resultante.
 		</explanation>
 	</choice>
 	<choice type="correct">
-		<text>A aresta DH n„o pertence as ·rvores resultantes.
+		<text>A aresta DH n√£o pertence as √°rvores resultantes.
 		</text>
 		<explanation>
-			A aresta DH n„o pertence a ·rvore resultante, pois geraria um ciclo.
+			A aresta DH n√£o pertence a √°rvore resultante, pois geraria um ciclo.
 		</explanation>
 	</choice>
 </question>

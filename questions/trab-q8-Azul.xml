@@ -1,54 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<question id="Azul-q8" level="1" subject="Algoritmo de Busca">
+<question id="Azul-q8" level="1" chapter="6">
 	<text>
 		<p>
-		Observe a função abaixo, em pseudocódigo, que tem como parâmetros um vetor $A$ e uma string $s$. Se $A$ corresponde a uma lista das strings: "fundação","getúlio","vargas","mestrado","emap","2016","matemática","aplicada","estrutura","dados","algoritmos", para qual dos valores de $s$ abaixo a função retorna um valor mais rapidamente? 
-		</p><br/>
-<pre><code>
-buscar(vetor A, string s) {
-	i = tamanho(A)
-	enquanto (i>0) {
-		if (A[i] == s) retorne (i)
-		i = i-1
-	}
-	retorne("Não há a string no vetor")
-}
-</code></pre>
+		Quatro matrizes $M_{1}, M_{2}, M_{3}, M_{4}$ de dimensões $pxq$, $qxr$, $rxs$ e $sxt$, respectivamente, podem sem multiplicadas com diversas quantidades de multiplicações escalares. Pode-se, por exemplo, multiplicar $((M_{1}xM_{2})x(M_{3}xM_{4}))$, e o número total de multplicações seria pqr+rst+prt.</br>
+		Se p=10, q=100, r=20, s=5 e t=80, o número mínimo de multiplicações necessárias é:
+		</p>
+	<explanation>
+	Uma breve explicação sobre multiplicação de cadeia de matrizes pode ser encontrada em:
+<a href="https://en.wikipedia.org/wiki/Matrix_chain_multiplication">Multiplicação de cadeia de matrizes</a>
+	</explanation>
 	</text>
+
 	<choice type="incorrect">
 		<text>
-		"matemática"
+		248000
 		</text>
 		<explanation>
-		O algoritmo inicia sua busca na última posição do vetor, e enquanto não encontra a string, vai voltando até alcançar o início do vetor. Dessa forma, quanto mais próximo do final do vetor estiver a string, mais rápido a função retorna um valor, dado que vai alcançar tal string antes. Logo, dentre as opções, a função atinge antes a string "estrutura", não "matemática".
+		Basicamente, o problema é de multiplicação de cadeia de matrizes, no qual consegue-se o menor número de multiplicações fazendo $((M_{1}x(M_{2}xM_{3}))xM_{4})$. Logo, o total será 100x20x5 (para M2xM3) + 10x100x5 + 10x5x80 = 19000.
 		</explanation>
 	<choice type="incorrect">
 		<text>
-		"2016"
+		44000
 		</text>
 		<explanation>
-		O algoritmo inicia sua busca na última posição do vetor, e enquanto não encontra a string, vai voltando até alcançar o início do vetor. Dessa forma, quanto mais próximo do final do vetor estiver a string, mais rápido a função retorna um valor, dado que vai alcançar tal string antes. Logo, dentre as opções, a função atinge antes a string "estrutura", não "2016".
-		</explanation>
-	<choice type="incorrect">
-		<text>
-		"mestrado"
-		</text>
-		<explanation>
-		O algoritmo inicia sua busca na última posição do vetor, e enquanto não encontra a string, vai voltando até alcançar o início do vetor. Dessa forma, quanto mais próximo do final do vetor estiver a string, mais rápido a função retorna um valor, dado que vai alcançar tal string antes. Logo, dentre as opções, a função atinge antes a string "estrutura", não "mestrado".
-		</explanation>
-	<choice type="incorrect">
-		<text>
-		"fundação"
-		</text>
-		<explanation>
-		O algoritmo inicia sua busca na última posição do vetor, e enquanto não encontra a string, vai voltando até alcançar o início do vetor. Dessa forma, quanto mais próximo do final do vetor estiver a string, mais rápido a função retorna um valor, dado que vai alcançar tal string antes. Logo, dentre as opções, a função atinge antes a string "estrutura", não "fundação".
+		Basicamente, o problema é de multiplicação de cadeia de matrizes, no qual consegue-se o menor número de multiplicações fazendo $((M_{1}x(M_{2}xM_{3}))xM_{4})$. Logo, o total será 100x20x5 (para M2xM3) + 10x100x5 + 10x5x80 = 19000.
 		</explanation>
 	<choice type="correct">
 		<text>
-		"estrutura"
+		19000
 		</text>
 		<explanation>
-		O algoritmo inicia sua busca na última posição do vetor, e enquanto não encontra a string, vai voltando até alcançar o início do vetor. Dessa forma, quanto mais próximo do final do vetor estiver a string, mais rápido a função retorna um valor, dado que vai alcançar tal string antes. Logo, dentre as opções, a função atinge antes a string "estrutura".
+		Basicamente, o problema é de multiplicação de cadeia de matrizes, no qual consegue-se o menor número de multiplicações fazendo $((M_{1}x(M_{2}xM_{3}))xM_{4})$. Logo, o total será 100x20x5 (para M2xM3) + 10x100x5 + 10x5x80 = 19000.
 		</explanation>
-	
+	<choice type="incorrect">
+		<text>
+		25000
+		</text>
+		<explanation>
+		Basicamente, o problema é de multiplicação de cadeia de matrizes, no qual consegue-se o menor número de multiplicações fazendo $((M_{1}x(M_{2}xM_{3}))xM_{4})$. Logo, o total será 100x20x5 (para M2xM3) + 10x100x5 + 10x5x80 = 19000.
+		</explanation>
 </question>

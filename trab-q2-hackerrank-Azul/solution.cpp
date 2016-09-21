@@ -21,9 +21,10 @@ int printSolution(int dist[], int n)
 void dijkstra(int V,int **graph, int src);
 int main(){
     int i, j, t=0, m, s, v, n;
-ifstream arq;
-arq.open("Entrada.txt", ios::in);
-arq>>n>>m>>s;
+//ifstream arq;
+//arq.open("input2.txt", ios::in);
+//arq>>n>>m>>s;
+cin>>n>>m>>s;
 int **lista=new int*[n];
 for(int i=0; i<n; i++)
     lista[i]=new int[n];
@@ -31,7 +32,8 @@ for(int l=0; l<n; l++)
     {for(int c=0; c<n; c++)
         lista[l][c]=0;}
 for(int x=0; x<m; x++){
-    arq>>i>>j>>v;
+    //arq>>i>>j>>v;
+    cin>>i>>j>>v;
     if(lista[i-1][j-1]!=0)
         {
         if(v<lista[i-1][j-1])
@@ -44,6 +46,7 @@ for(int x=0; x<m; x++){
                 continue;}
 }
 dijkstra(n, lista, s-1);
+//arq.close();
 return 0;}
 void dijkstra(int V,int **graph, int src)
 {

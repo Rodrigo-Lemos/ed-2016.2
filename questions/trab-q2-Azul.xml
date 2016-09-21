@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<question id="Azul-q2" level="1" subject="DFS">
+<question id="Azul-q2" level="1" chapter="4">
 	<text>
-		<p>Realize o algoritmo DFS no grafo direcionado abaixo. Sempre que houver mais de uma opção de qual nó visitar primeiro, escolha o nó com o menor indice. <br/></p>
-		<img src="images/graph.png"/> <br/>
-		<p>Identifique o número a opção que apresenta o número de pre-ordem correto nas opções abaixo: 	</p>
+		<p>Realize o algoritmo DFS no grafo direcionado abaixo. Sempre que houver mais de uma opÃ§Ã£o de qual nÃ³ visitar primeiro, escolha o nÃ³ com o menor indice. <br/></p>
+		<img src="images/trab-q2-Azul.png"/> <br/>
+		<p>Identifique o nÃºmero a opÃ§Ã£o que apresenta o nÃºmero de pre-ordem correto nas opÃ§Ãµes abaixo: 	</p>
 	</text>
 	<explanation>
-	Uma breve explicação do DFS pode ser encontrada em:
-	<a href="http://www.ime.usp.br/~pf/algoritmos_para_grafos/aulas/dfs1.html">DFS</a>
+	Uma breve explicaÃ§Ã£o do DFS pode ser encontrada em:
+	<a href="https://pt.wikipedia.org/wiki/Busca_em_profundidade">DFS</a>
 	</explanation>
 	<choice type="correct">
-		<text> O número de pré-ordem do vértice de indice 5 é 11. 
+		<text> O nÃºmero de prÃ©-ordem do vÃ©rtice de indice 5 Ã© 11. 
 		</text>
 		<explanation>
 			
 		</explanation>
 	</choice>
 	<choice type="incorrect">
-		<text>O número de pré-ordem do vértice de indice 1 é 0.</text>
+		<text>O nÃºmero de prÃ©-ordem do vÃ©rtice de indice 1 Ã© 0.</text>
 		<explanation>
 			
 		</explanation>
 	</choice>
 	<choice type="incorrect">
-		<text>O número de pré-ordem do vértice de indice 5 é 10.</text>
+		<text>O nÃºmero de prÃ©-ordem do vÃ©rtice de indice 5 Ã© 10.</text>
 		<explanation>
 			
 		</explanation>
 	</choice>
 	<choice type="incorrect">
-		<text>O número de pré-ordem do vértice de indice 1 é 2.</text>
+		<text>O nÃºmero de prÃ©-ordem do vÃ©rtice de indice 1 Ã© 2.</text>
 		<explanation>
 			
 		</explanation>
 	</choice>
 	<choice type="incorrect">
-		<text>O número de pré-ordem do vértice de indice 4 é 5.	</text>
+		<text>O nÃºmero de prÃ©-ordem do vÃ©rtice de indice 4 Ã© 5.	</text>
 		<explanation>
 			
 		</explanation>

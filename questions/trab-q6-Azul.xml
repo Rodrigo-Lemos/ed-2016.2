@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<question id="Azul-q6" level="2" subject="Componentes conexos">
+<question id="Azul-q6" level="2" chapter="3">
 	<text>
 		<p>
-		Assinale a alternativa que indica quantos nós possui o maior componente fortemente conexo do grafo abaixo.
+		Assinale a alternativa que indica quantos nÃ³s possui o maior componente fortemente conexo do grafo abaixo.
 		</p>
-		<img src="images/graph_SCC.png"/> <br/>
+		<img src="trab_q6_Azul.png"/> <br/>
 	<explanation>
-		Uma breve explicação sobre o algoritmo pode ser encontrada em: 
-		   <a href="http://www.columbia.edu/~cs2035/courses/csor4231.F11/scc.pdf">Componentes Fortemente Conexos</a>
+		Uma breve explicaÃ§Ã£o sobre conectividade em grafos pode ser encontrada em: 
+		   <a href="https://pt.wikipedia.org/wiki/Conectividade_(teoria_dos_grafos)">Componentes Fortemente Conexos</a>
 	</explanation>
 	</text>
 	<choice type="incorrect">
 		<text>3</text>
 		<explanation>
-			Existe um componente fortemente conexo com mais do que 3 vértices no grafo.
+			Existe um componente fortemente conexo com mais do que 3 vÃ©rtices no grafo.
 		</explanation>
 	</choice>
 	<choice type="incorrect">
 		<text>5</text>
 		<explanation>
-			Não existe um componente fortemente conexo com 5 vértices no grafo.
+			NÃ£o existe um componente fortemente conexo com 5 vÃ©rtices no grafo.
 		</explanation>
 	</choice>
 	<choice type="incorrect">
 		<text>10</text>
 		<explanation>
-			Não existe um componente fortemente conexo com 5 vértices no grafo.
+			NÃ£o existe um componente fortemente conexo com 5 vÃ©rtices no grafo.
 		</explanation>
 	</choice>
 	<choice type="incorrect">
 		<text>1</text>
 		<explanation>
-			Existem componentes fortemente conexos com mais do que 1 vértice.
+			Existem componentes fortemente conexos com mais do que 1 vÃ©rtice.
 		</explanation>
 	</choice>
 	<choice type="correct">
